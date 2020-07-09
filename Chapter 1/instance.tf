@@ -7,8 +7,4 @@ resource "aws_instance" "app" {
 			#!/bin/bash
 			sudo service apache2 start
 			EOF
-
-	tags = {
-		Name	= "Chapter 1"
-	}
 }
